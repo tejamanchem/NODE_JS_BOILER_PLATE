@@ -2,21 +2,17 @@
 
 ## NodeJs boiler plate refers to individual nodejs servers
 
-# 1
-clone the Repositry
+1.clone the Repositry
 
-# 2
-cd ACP 
+2.cd ACP 
 for setuping your project
 
-# 3 
-Run yarn command in your terminal
+3.Run yarn command in your terminal
 
 when yarn command is run there are node_modules found in your local they are modules installed for your project
 ##### Alert Dont push node_modules to repo
 
-# 4
-To start the server type 'yarn workspace @Acp/server-core start serve' in teriminal
+4.To start the server type 'yarn workspace @Acp/server-core start serve' in teriminal
 
 ##### Looks like the server will start after executing this command
 

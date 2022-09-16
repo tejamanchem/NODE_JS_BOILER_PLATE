@@ -1,0 +1,33 @@
+{
+  "name": "@Acp/mono-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3",
+  "workspaces": [
+    "packages/*",
+    "packages/**/*",
+    "modules/**/*"
+  ],
+  "scripts": {
+    "clean": "yarn workspaces foreach -A run clean",
+    "build-modules": "yarn tsc -b modules",
+    "watch-modules": "yarn tsc -b -w modules",
+    "build-modules:fe": "yarn workspaces foreach -A -t run build:fe"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-spawn": "^7.0.3",
+    "dotenv": "^16.0.2",
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "@types/rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0"
+  }
+}

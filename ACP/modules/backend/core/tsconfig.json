@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "checkJs": true,
+    "strict": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "composite": true,
+  },
+  "include": ["src"]
+}
